@@ -1,0 +1,8 @@
+1. Management Design
+The network is managed primarily using NETCONF and Simple Network Management Protocol (SNMP). The servers that use these protocols are located in the east coast data center and are secured behind a pair of mutually supporting security appliances. The security appliances operate at layer-3 and exchange IP routes (via OSPF) with the upstream aggregation routers.
+
+2. IP Routing Design
+Open Shortest Past First (OSPF) is the routing protocol of choice for the enterprise network. The environment uses a flat OSPF area 0 design on all links for simplicity. NETCONF is used for configuration management and synchronous operational data collection while SNMP transmits event-driven messaging to a central collector (asynchronous). Because this network does not have an out-of-band management network, both NETCONF and SNMP require a stable OSPF topology to perform their function.
+
+3. Security Design
+The security appliances are connected together using a dedicated cable for high-availability. This ensures that if one device fails, the other continues to operate normally. Because of these devices are located in the data center, they are directly connected to the management LAN and thus do not require OSPF routing for device management.
