@@ -1,33 +1,33 @@
-The telemetry stack uses Telegraph and InfluxDB, but it includes a "built from scratch" fronteend instead of Grafana. This level of customization enables us to better display telemetry data.
+1. The telemetry stack uses Telegraph and InfluxDB, but it includes a "built from scratch" front-end instead of Grafana. This level of customization enables us to better display telemetry data.
 
-When fast reroute is enabled within an OSPF area, each router "drills down" into the link-state database to compute the shortest path to remote prefixes from the perspective of every other router.
+2. When fast reroute is enabled within an OSPF area, each router "drills down" into the link-state database to compute the shortest path to remote prefixes from the perspective of every other router.
 
-When the remotely triggered blackhole (RTBH) is activated at the network edge, all ingressing packets destined towards the blackholed prefix are " sent to the bit bucket".
+3. When the remotely triggered blackhole (RTBH) is activated at the network edge, all ingressing packets destined towards the blackholed prefix are " sent to the bit bucket".
 
-JSON and YAML aren't that different. If you know one, you'll be able to "grok" the other with a little bit of practice and exposure.
+4. JSON and YAML aren't that different. If you know one, you'll be able to "grok" the other with a little bit of practice and exposure.
 
-When the MPLS traffic engineering tunnel "circles back" through the core site, the forwarding path is suboptimal.
+5. When the MPLS traffic engineering tunnel "circles back" through the core site, the forwarding path is suboptimal.
 
-At this point, the back-end Will contain extensive sales data. Let's "double click" on that microservice.
+6. At this point, the back-end Will contain extensive sales data. Let's "double click" on that microservice.
 
-When the router receives more voice over IP (VoIP) traffic than was budgeted in the queuing design, the packets transmission time is "pushed to the right".
+7. When the router receives more voice over IP (VoIP) traffic than was budgeted in the queuing design, the packets transmission time is "pushed to the right".
 
-I'm busy all week, so I don't "have any cycles" to work on your new project.
+8. I'm busy all week as I'm engaged in many customer-facing work tasks. I don't "have any cycles" to work on your new project.
 
-Our recent merger and acquisitions results have been dismal. All of us are going to "eat dogfood" by taking management positions in the subsidiary companies.
+9. Our recent merger and acquisitions results have been dismal. All of us are going to "eat dogfood" by taking management positions in the subsidiary companies.
 
-Version 2 of the router code supports BGP multi-homing, but since the vendor has not yet "sunset" version 1, we'll continue to use it because it is stable.
+10. Version 2 of the router code supports BGP multi-homing, but since the vendor has not yet "sunset" version 1, we'll continue to use it because it is stable.
 
-We're looking to expand into global markets and it made investments to that effect. I need everyone to "think outside of the box" regarding a new product development strategy.
+11. We're looking to expand into global markets and it made investments to that effect. I need everyone to "think outside of the box" regarding a new product development strategy.
 
-The auto backup feature Will protect all links and nodes in the carriers core. This is "low hanging fruit" and will significantly improve unavailability of network.
+12. The auto backup feature Will protect all links and nodes in the carriers core. This is "low hanging fruit" and will significantly improve unavailability of network.
 
-Using IPsec transport mode instead of tunnel mode won't "move the needle" on our widespread packet fragmentation problem.
+13. Using IPsec transport mode instead of tunnel mode won't "move the needle" on our widespread packet fragmentation problem.
 
-Our cyber security systems were breached this morning. It's important for us to analyze the events that occurred "left of the bang" during our root cause analysis.
+14. Our cyber security systems were breached this morning. It's important for us to analyze the events that occurred "left of the bang" during our root cause analysis.
 
-The Atlanta data center is experiencing brownouts due to a poorly designed power distribution scheme. We need "boots on the ground" to remedy this problem.
+15. The Atlanta data center is experiencing brownouts due to a poorly designed power distribution scheme. We need "boots on the ground" to remedy this problem.
 
-Although the network was designed to load share 100 Gbps across four links, let's "push the envelope" by testing 150 Gbps without adding any capacity.
+16. Although the network was designed to load share 100 Gbps across four links, let's "push the envelope" by testing 150 Gbps without adding any capacity.
 
-The holidays are coming up and we don't have the required attendees in this meeting. I'm going to "put a pin in" these work tasks until our team members return.
+17. The holidays are coming up and we don't have the required attendees in this meeting. I'm going to "put a pin in" these work tasks until our team members return.
