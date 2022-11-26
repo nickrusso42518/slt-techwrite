@@ -13,3 +13,5 @@
 7. Today, content also has to be ready for contextless situations—not only in truncated form when we struggle to make out small text on our smartwatches or scroll through new television series on Roku but also in places it's never ended up before.
 
 8. This is especially true when the network was designed for technologies and requirements relevant in years past and the business decided to adopt new IT technologies and architectures to facilitate the achievement of its goals, but the business’ existing network was not designed to address these new technologies’ requirements.
+
+Copyright 2023 Nicholas Russo. All rights reserved.

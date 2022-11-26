@@ -31,3 +31,5 @@
 16. Although the network was designed to load share 100 Gbps across four links, let's "push the envelope" by testing 150 Gbps without adding any capacity.
 
 17. The holidays are coming up and we don't have the required attendees in this meeting. I'm going to "put a pin in" these work tasks until our team members return.
+
+Copyright 2023 Nicholas Russo. All rights reserved.

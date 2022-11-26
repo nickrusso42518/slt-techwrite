@@ -6,3 +6,5 @@ Open Shortest Past First (OSPF) is the routing protocol of choice for the enterp
 
 3. Security Design
 The security appliances are connected together using a dedicated cable for high-availability. This ensures that if one device fails, the other continues to operate normally. Because of these devices are located in the data center, they are directly connected to the management LAN and thus do not require OSPF routing for device management. OSPF is secured using cryptographic authentication to prevent on authorized devices from joining the topology. These cryptographic keys are rotated every 180 days; this is an automated process centrally managed using NETCONF.
+
+Copyright 2023 Nicholas Russo. All rights reserved.
