@@ -19,8 +19,20 @@ After cloning, you should see the following file system structure:
 $ tree --charset=ascii
 .
 |-- README.md
-|-- exercise_1a.txt
-`-- exercise_1b.txt
+|-- exercise_1.txt
+|-- exercise_2.txt
+|-- exercise_3.txt
+|-- exercise_4
+|   |-- README.md
+|   |-- a.jpg
+|   |-- b.jpg
+|   |-- c.jpg
+|   |-- d.jpg
+|   |-- e.jpg
+|   |-- f.jpg
+|   |-- g.jpg
+|   `-- h.jpg
+`-- exercise_5.txt
 ```
 
 These are plaintext files so that they are readable on any kind of computer. You
