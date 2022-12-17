@@ -1,12 +1,12 @@
 1. Keep in mind, not all end user devices support all of these standards and protocols, you as the network designer will be required to identify the least common denominator standard and protocol that meets the needs for everything in the architecture.
 
-2. From a wireless design perspective, the best way to provide sustained performance to a high-density number of clients is to pre-determine and distribute clients across multiple APs and channels. 
+2. From a wireless design perspective, the best way to provide sustained performance to a high-density number of clients is to pre-determine and distribute clients across multiple APs and channels through the enterprise architecture.
 
-3. We have no way to trace the electrons from a website or app back to the power plant where the electricity is being generated and actually know the exact amount of greenhouse gas produced based on those browsing activities.
+3. We have no way to trace the electrons from a website or app back to the power plant where the electricity is being generated and actually know the exact amount of greenhouse gas produced based on those browsing activities because electricity can be generated from chemical, thermal, and mechanical energy sources.
 
 4. This covers the technologies and designs from a service provider point of view to provide the benefits to the enterprise network architecture if one of these technologies is chosen from a transport perspective.
 
-5. The access-to-distribution data center links rely on link aggregation technologies to quadruple the total available bandwidth. Because each bundle contains four links, the network distributes 25% of north/south traffic across each link. 
+5. The access-to-distribution data center links rely on link aggregation technologies to quadruple the total available bandwidth. Because each bundle contains four links, the network evenly distributes 25% of north/south traffic across each link.
 
 6. However, as a network architect, you must evaluate the scenario that you are dealing with, ideally using the top-down design approach, where business goals and requirements are at the top, followed by the application requirements that should collectively drive the functional and technical requirements.
 

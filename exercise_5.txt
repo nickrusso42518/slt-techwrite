@@ -2,25 +2,25 @@
 
 2. When fast reroute is enabled within an OSPF area, each router "drills down" into the link-state database to compute the shortest path to remote prefixes from the perspective of every other router.
 
-3. When the remotely triggered blackhole (RTBH) is activated at the network edge, all ingressing packets destined towards the blackholed prefix are " sent to the bit bucket".
+3. When the remotely triggered blackhole (RTBH) is activated at the network edge, all ingressing packets destined towards the blackholed prefix are "sent to the bit bucket".
 
 4. JSON and YAML aren't that different. If you know one, you'll be able to "grok" the other with a little bit of practice and exposure.
 
 5. When the MPLS traffic engineering tunnel "circles back" through the core site, the forwarding path is suboptimal.
 
-6. At this point, the back-end Will contain extensive sales data. Let's "double click" on that microservice.
+6. At this point in the sales process, the back-end will contain extensive order data. Let's "double click" on the microservice that handles these transactions.
 
-7. When the router receives more voice over IP (VoIP) traffic than was budgeted in the queuing design, the packets transmission time is "pushed to the right".
+7. When the router receives more voice over IP (VoIP) traffic than expected in the queuing design, the packet's transmission time is "pushed to the right".
 
 8. I'm busy all week as I'm engaged in many customer-facing work tasks. I don't "have any cycles" to work on your new project.
 
-9. Our recent merger and acquisitions results have been dismal. All of us are going to "eat dogfood" by taking management positions in the subsidiary companies.
+9. Our recent merger and acquisitions financial results have been dismal. All of us are going to "eat dogfood" by taking management positions in the subsidiary companies.
 
 10. Version 2 of the router code supports BGP multi-homing, but since the vendor has not yet "sunset" version 1, we'll continue to use it because it is stable.
 
-11. We're looking to expand into global markets and it made investments to that effect. I need everyone to "think outside of the box" regarding a new product development strategy.
+11. We're looking to expand into global markets and make new investments to that effect. I need everyone to "think outside of the box" regarding a new product development strategy.
 
-12. The auto backup feature Will protect all links and nodes in the carriers core. This is "low hanging fruit" and will significantly improve unavailability of network.
+12. The auto-backup feature will protect all links and nodes in the carrier's core. This is "low-hanging fruit" and will significantly improve unavailability of network.
 
 13. Using IPsec transport mode instead of tunnel mode won't "move the needle" on our widespread packet fragmentation problem.
 
