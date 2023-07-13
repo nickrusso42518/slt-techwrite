@@ -4,6 +4,6 @@ The front-end uses Python flask to present both a graphical user interface (GUI)
 
 The network that interconnects the application and the users requires high-availability. This removes any single points of failure from the transport path by installing redundant devices and links. The primary path will carry 100% of the traffic load while the alternate path is only used in the event of a primary path failure. This effectively doubles the available bandwidth in the network.
 
-Regarding daily operations, the IT management team will monitor both the software application and the underlying network. Past data shows an indirectly proportional correlation between operator notification time and issue manifestation. Said another way, issues are less common when operators pick up the phone sooner.
+Regarding daily operations, the IT management team will monitor both the software application and the underlying network. Past data shows an inversely proportional correlation between operator notification time and issue manifestation. Said another way, issues are less common when operators pick up the phone sooner.
 
 Copyright 2023 Nicholas Russo. All rights reserved.
