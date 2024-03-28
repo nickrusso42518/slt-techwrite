@@ -1,17 +1,17 @@
 1. Keep in mind, not all end user devices support all of these standards and protocols, you as the network designer will be required to identify the least common denominator standard and protocol that meets the needs for everything in the architecture.
 
-2. From a wireless design perspective, the best way to provide sustained performance to a high-density number of clients is to pre-determine and distribute clients across multiple APs and channels through the enterprise architecture.
+2. Today, content also has to be ready for contextless situations—not only in truncated form when we struggle to make out small text on our smartwatches or scroll through new television series on Roku but also in places it's never ended up before.
 
 3. We have no way to trace the electrons from a website or app back to the power plant where the electricity is being generated and actually know the exact amount of greenhouse gas produced based on those browsing activities because electricity can be generated from chemical, thermal, and mechanical energy sources.
 
-4. This covers the technologies and designs from a service provider point of view to provide the benefits to the enterprise network architecture if one of these technologies is chosen from a transport perspective.
+4. From a wireless design perspective, the best way to provide sustained performance to a high-density number of clients is to pre-determine and distribute clients across multiple APs and channels through the enterprise architecture.
 
-5. The access-to-distribution data center links rely on link aggregation technologies to quadruple the total available bandwidth. Because each bundle contains four links, the network evenly distributes 25% of north/south traffic across each link.
+5. In today’s fast-paced, dynamic business environment, Supplier Relationship Management (SRM) stands out as a crucial and significant avenue for optimising the impact that procurement and supply chain management can have on an organisation’s success which has evolved into a broad range of topics and processes, usually involving collaboration with strategic suppliers which may be defined as those critical to the business, highest spend contributors or innovative partners.
 
-6. However, as a network architect, you must evaluate the scenario that you are dealing with, ideally using the top-down design approach, where business goals and requirements are at the top, followed by the application requirements that should collectively drive the functional and technical requirements.
+6. The access-to-distribution data center links rely on link aggregation technologies to quadruple the total available bandwidth. Because each bundle contains four links, the network evenly distributes 25% of north/south traffic across each link.
 
-7. Today, content also has to be ready for contextless situations—not only in truncated form when we struggle to make out small text on our smartwatches or scroll through new television series on Roku but also in places it's never ended up before.
+7. The things I post about will not be strictly limited to electrical engineering as I will no doubt talk about designing, building and testing circuits, but I’ll also be looking at other things that are tangentially related to electrical engineering; digital signal processing also comes to mind.
 
 8. This is especially true when the network was designed for technologies and requirements relevant in years past and the business decided to adopt new IT technologies and architectures to facilitate the achievement of its goals, but the business' existing network was not designed to address these new technologies' requirements.
 
-Copyright 2023 Nicholas Russo. All rights reserved.
+Copyright 2024 Nicholas Russo. All rights reserved.

@@ -1,0 +1,252 @@
+Links:
+https://platform.openai.com/playground?mode=chat
+https://platform.openai.com/tokenizer
+
+
+### TEXT SUMMARIZATION 1.1
+settings:
+All default (gpt3.5-turbo)
+
+system:
+You are a professional writer and editor.
+
+user:
+Make the sentence below more concise without changing its meaning.
+
+"""
+Keep in mind, not all end user devices support all of these standards and protocols, you as the network designer will be required to identify the least common denominator standard and protocol that meets the needs for everything in the architecture.
+"""
+
+### TEXT SUMMARIZATION 1.2
+Add message for user:
+Using that same input sentence, make it even more concise, limiting your response to 15 words at most.
+
+
+~DELETE~
+
+
+### TEXT SUMMARIZATION 2.1
+settings:
+model -> gpt-4
+
+system:
+You are a professional writer and editor. (no change)
+
+user:
+Summarize the text below.
+
+"""
+We have no way to trace the electrons from a website or app back to the power plant where the electricity is being generated and actually know the exact amount of greenhouse gas produced based on those browsing activities because electricity can be generated from chemical, thermal, and mechanical energy sources.
+"""
+
+
+### TEXT SUMMARIZATION 2.2
+settings:
+temperature -> 1.5 (more creative)
+
+
+### TEXT SUMMARIZATION 2.3
+settings:
+temperature -> 0.5 (more deterministic)
+
+
+~DELETE~
+
+
+### TEXT CLASSIFICATION 1.1
+settings:
+temperature -> 1 (default)
+maximum length -> 1000 (tokenize first)
+
+user:
+Rewrite the paragraphs below, correcting any errors of fact. Reorder sentences into technically-relevant categories, such as application behavior, API, GUI, and network design.
+
+"""
+The application source code references a DNS hostname to access the database. This enables the underlying operating system to resolve the IP address dynamically. This design choice has many benefits. Additionally, the database is relational, which is the structure of choice for successful companies like Facebook and Google. Because we intend to instantiate multiple database pods within the Kubernetes deployment, additional customers will consume our new software-as-a-service offering. If we build it, they will come.
+
+The front-end uses Python flask to present both a graphical user interface (GUI) and an application programming interface (API). The GUI uses a blue and orange theme to align with our target demographic. Users can easily add items to their cart and check out in less than one minute. The API uses JavaScript Object Notation (JSON) format for its data. Users can also track their orders using voice-activated commands via the GUI. The API response time is typically less than 20 milliseconds, and the GUI plays a "bell" sound once an order has been shipped.
+
+The network that interconnects the application and the users requires high-availability. This removes any single points of failure from the transport path by installing redundant devices and links. The primary path will carry 100% of the traffic load while the alternate path is only used in the event of a primary path failure. This effectively doubles the available bandwidth in the network.
+
+Regarding daily operations, the IT management team will monitor both the software application and the underlying network. Past data shows an inversely proportional correlation between operator notification time and issue manifestation. Said another way, issues are less common when operators pick up the phone sooner.
+"""
+
+
+~DELETE~
+
+
+### TEXT CLASSIFICATION 2.1
+user:
+The individual sentences in this essay are correct, but may exist under the wrong heading. Categorize each sentence into the enumerated heading most related to the sentence. Do not change the names of the headings.
+
+"""
+1. Management Design
+The network is managed primarily using NETCONF and Simple Network Management Protocol (SNMP). The servers that use these protocols are located in the east coast data center and are secured behind a pair of mutually supporting security appliances. The security appliances operate at layer-3 and exchange IP routes (via OSPF) with the upstream aggregation routers. These devices have an integrated Intrusion Prevention System (IPS) which downloads updated signatures every 15 days in accordance with our Information Assurance (IA) policy. For human driven troubleshooting and advanced analysis, SSH access is also enabled on all devices with read-only access for operators.
+
+2. IP Routing Design
+Open Shortest Past First (OSPF) is the routing protocol of choice for the enterprise network. The environment uses a flat OSPF area 0 design on all links for simplicity. NETCONF is used for configuration management and synchronous operational data collection while SNMP transmits event-driven messaging to a central collector (asynchronous). Because this network does not have an out-of-band management network, both NETCONF and SNMP require a stable OSPF topology to perform their function. The Internet edge routers originate default routes for IPv4 and IPv6 to reduce routing table size and speed up network convergence in the campus network.
+
+3. Security Design
+The security appliances are connected together using a dedicated cable for high-availability. This ensures that if one device fails, the other continues to operate normally. Because these devices are located in the data center, they are directly connected to the management LAN and thus do not require OSPF routing for device management. OSPF is secured using cryptographic authentication to prevent unauthorized devices from joining the topology. These cryptographic keys are rotated every 180 days; this is an automated process centrally managed using NETCONF.
+"""
+
+
+~DELETE~
+
+
+### TEXT GENERATION 1.1
+settings:
+top p -> 0.2
+temperature -> 0.5
+
+system: You are a professional software developer and technical educator.
+
+user:
+Write Python code to compute the factorial of a given integer. Use a recursive algorithm. Include type hints and docstrings where possible.
+
+
+### TEXT GENERATION 1.2
+
+user:
+Write Python code to compute the factorial of a given integer. Use an iterative algorithm wrapped inside of an asyncio coroutine. Drive this coroutine from another coroutine titled `supervisor`. Include type hints and docstrings where possible.
+
+
+### TEXT GENERATION 1.3
+
+user:
+Rewrite the `factorial` coroutine to use a single line of code using functional programming concepts, such as lambda, map, filter, and reduce.
+
+
+### TEXT GENERATION 1.4
+
+user:
+Further simplify the `factorial` coroutine with a single line of code using any available features from Python's `math` module.
+
+
+~DELETE~
+
+
+### TEXT GENERATION 2.1
+settings:
+top p -> 1.0 (default)
+temperature -> 1.2
+presence penalty -> 1.0
+
+user: 
+Develop 3 short analogies to compare the thread-based and async-based mechanisms of concurrency in Python.
+
+
+~DELETE~
+
+
+### TEXT GENERATION 3.1
+top p -> 1 (default)
+temperature -> 0.5
+presence penalty -> 0.0 (default)
+
+system: You are a professional Linux systems administrator.
+
+user:
+Display the correct Linux `firewall-cmd` commands according to the comma-separated values table below. Enclose your answer in triple backticks. Account for each command in your response.
+
+```
+zone,source ip,destination ip,protocol,port,action
+public,192.0.2.1,203.0.113.1,tcp,42518,accept
+public,192.0.2.2,203.0.113.2,udp,42519,reject
+private,198.51.100.3,203.0.113.3,tcp,22,accept
+public,192.0.2.1,203.0.113.1,tcp,42518,accept
+```
+
+
+### TEXT GENERATION 3.2
+settings:
+frequency penalty -> 1.0
+
+(resubmit)
+
+
+~DELETE~
+
+
+### TEXT INTERACTION 1.1
+settings:
+maximum length -> 1000 (tokenize first)
+temperature: 1 (default)
+top p: 1 (default)
+frequency penalty: 0 (default)
+
+system: You are a professional network engineer.
+
+user:
+What is the purpose of this Cisco IOS configuration snippet?
+
+```
+class-map match-all CMAP_NETCONTROL
+  description NETWORK CONTROL PLANE: RFC4594/3.2
+ match dscp cs6 cs7
+class-map match-all CMAP_OAM
+  description OPERATIONS/ADMINISTRATION/MANAGEMENT: RFC4594/3.3
+ match dscp cs2
+class-map match-all CMAP_VOIP
+  description VOICE OVER IP TELEPHONY: RFC4594/4.1
+ match dscp ef
+class-map match-all CMAP_SIGNALING
+  description APPLICATION SIGNALING: RFC4594/4.2
+ match dscp cs5
+class-map match-all CMAP_MM_CONF
+  description MULTIMEDIA CONFERENCING: RFC4594/4.3
+ match dscp af41 af42 af43
+class-map match-all CMAP_RT_INTER
+  description REALTIME INTERACTIVE: RFC4594/4.4
+ match dscp cs4
+class-map match-all CMAP_MM_STREAM
+  description MULTIMEDIA STREAMING: RFC4594/4.5
+ match dscp af31 af32 af33
+class-map match-all CMAP_BC_VIDEO
+  description BROADCAST VIDEO: RFC4594/4.6
+ match dscp cs3
+class-map match-all CMAP_LL_DATA
+  description LOW LATENCY (TRANSACTIONAL) DATA: RFC4594/4.7
+ match dscp af21 af22 af23
+class-map match-all CMAP_HT_DATA
+  description HIGH THROUGHPUT (BULK) DATA: RFC4594/4.8
+ match dscp af11 af12 af13
+class-map match-all CMAP_LP_DATA
+  description LOW PRIORITY (SCAVENGER) DATA: RFC4594/4.10
+ match dscp cs1
+```
+
+
+### TEXT INTERACTION 1.2
+(note: correct answer is low-latency data)
+
+user:
+Given these class-maps, how should I classify instant messaging and chat services in my enterprise network?
+
+
+### TEXT INTERACTION 1.3
+(note: correct answer is real-time interactive)
+
+user:
+Given these class-maps, how should I classify unbuffered Telepresence services in my enterprise network?
+
+
+### TEXT INTERACTION 1.4
+(note: correct answer is that they use CS5 for broadcast video and CS3 or AF31 for signaling)
+
+user:
+How do typical Cisco VOIP deployments deviate from this standardized model?
+
+
+### TEXT INTERACTION 1.5
+(note: correct answer is to show updates to signaling, suboptimal prompt on purpose)
+
+user:
+Rewrite the appropriate class-maps to implement the Cisco-recommended DSCP values as they relate to VOIP and its associated signaling. Only display the updated class-maps.
+
+
+### TEXT INTERACTION 1.6
+(note: correct answer is CS5)
+
+user:
+How does Cisco recommended broadcast video be classified in such a design?

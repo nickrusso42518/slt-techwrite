@@ -1,4 +1,4 @@
-# Safari Live Training - Technical Writing
+# Safari Live Training - Technical Writing Essentials: From Basics to AI
 
 > Contact information:\
 > Email:    njrusmc@gmail.com\
@@ -40,4 +40,4 @@ do not need fancy word processing software, such as Microsoft Word, to
 participate. If you don't have any experience with git or GitHub, you can click
 the green `<> Code` button, then select "Download ZIP". In your computer's
 downloads folder, you will see this repository represented as a `.zip` file.
-You can then extract the files to access them individually.  
+You can then extract the files to access them individually.

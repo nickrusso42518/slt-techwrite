@@ -6,4 +6,4 @@ The network that interconnects the application and the users requires high-avail
 
 Regarding daily operations, the IT management team will monitor both the software application and the underlying network. Past data shows an inversely proportional correlation between operator notification time and issue manifestation. Said another way, issues are less common when operators pick up the phone sooner.
 
-Copyright 2023 Nicholas Russo. All rights reserved.
+Copyright 2024 Nicholas Russo. All rights reserved.
